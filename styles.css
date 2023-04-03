@@ -35,37 +35,37 @@ html {
 
 body, p {
 	color: #6b747b; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.625rem "Copperplate", Fantasy; 
 }
 
 h1 {
 	color: #333333;
-	font: 500 2.5rem/3.25rem "Poppins", sans-serif;
+	font: 500 2.5rem/3.25rem "Copperplate", Fantasy; 
 }
 
 h2 {
 	color: #333333;
-	font: 500 2.125rem/2.75rem "Poppins", sans-serif;
+	font: 500 2.125rem/2.75rem "Copperplate", Fantasy; 
 }
 
 h3 {
 	color: #333333;
-	font: 500 1.75rem/2.375rem "Poppins", sans-serif;
+	font: 500 1.75rem/2.375rem "Copperplate", Fantasy; 
 }
 
 h4 {
 	color: #333333;
-	font: 500 1.5rem/2.125rem "Poppins", sans-serif;
+	font: 500 1.5rem/2.125rem "Copperplate", Fantasy; 
 }
 
 h5 {
 	color: #333333;
-	font: 500 1.25rem/1.75rem "Poppins", sans-serif;
+	font: 500 1.25rem/1.75rem "Copperplate", Fantasy; 
 }
 
 h6 {
 	color: #333333;
-	font: 500 1rem/1.5rem "Poppins", sans-serif;
+	font: 500 1rem/1.5rem "Copperplate", Fantasy; 
 }
 
 .p-large {
@@ -105,7 +105,7 @@ a.white {
 }
 
 .bg-gray {
-	background-color: #eaeaea;
+	background-color: slategray;
 }
 
 .btn-solid-reg {
