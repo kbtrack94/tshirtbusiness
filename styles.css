@@ -3,7 +3,7 @@
 body {
 	font-family: "Times New Roman", Times, serif;
 	background-color: steelblue;
-	color: white;
+	color: orangered;
   }
   
   .container {
@@ -80,7 +80,7 @@ body {
   
   .hero-content p {
 	font-size: 24px;
-	color: #fff;
+	color: #fa0000;
 	text-shadow: 2px 2px 5px  greenyellow;
 	margin-top: 20px;
   }
@@ -97,17 +97,17 @@ body {
   .product {
 	width: calc(33.33% - 20px);
 	margin-bottom: 40px;
-	box-shadow: 0 2px 5px blue;
+	box-shadow: 0 4px 10px blue;
 	transition: all 0.3s ease;
   }
   
   .product:hover {
-	box-shadow: 0 5px 10px rgba(240, 6, 6, 0.805);
+	box-shadow: 0 4px 10px whitesmoke;
 	transform: translateY(-5px);
   }
   
   .product img {
-	width: 50%;
+	width: 25%;
   }
   
   .product h3 {
