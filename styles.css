@@ -171,6 +171,21 @@ body {
 	background-color: lightblue;
   }
   
+  /* Flexbox Container */
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Columns in Container */
+  .item {
+	flex: 1;
+	height: 50px;
+	margin: 10px;
+	font-family: "Times New Roman", Times, serif;
+	
   /* Footer */
   
   footer {
