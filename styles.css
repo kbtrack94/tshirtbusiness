@@ -2,8 +2,8 @@
 
 body {
 	font-family: "Times New Roman", Times, serif;
-	background-color: steelblue;
-	color: orangered;
+	background-color: gainsboro;
+	color: whitesmoke;
   }
   
   .container {
@@ -57,7 +57,7 @@ body {
   /* Hero section */
   
   .hero {
-	background-image: url('tshirt-hero.jpg');
+	background-image: url('IMG_1362.JPG');
 	background-size: cover;
 	height: 400px;
 	position: relative;
@@ -97,12 +97,12 @@ body {
   .product {
 	width: calc(33.33% - 20px);
 	margin-bottom: 40px;
-	box-shadow: 0 4px 10px blue;
+	box-shadow: 0 4px 10px gainsboro;
 	transition: all 0.3s ease;
   }
   
   .product:hover {
-	box-shadow: 0 4px 10px whitesmoke;
+	box-shadow: 0 10px 10px whitesmoke;
 	transform: translateY(-5px);
   }
   
@@ -124,7 +124,7 @@ body {
   .product a {
 	display: block;
 	text-align: center;
-	background-color: #333;
+	background-color: purple;
 	color: #fff;
 	text-decoration: none;
 	padding: 10px;
@@ -134,13 +134,13 @@ body {
   }
   
   .product a:hover {
-	background-color: #666;
+	background-color: red;
   }
   
   /* Footer */
   
   footer {
-	background-color: saddlebrown;
+	background-color: gainsboro;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
