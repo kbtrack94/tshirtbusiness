@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Times New Roman", Times, serif;
-	background-color: gainsboro;
+	background-color: blanchedalmond;
 	color: whitesmoke;
   }
   
@@ -81,10 +81,41 @@ body {
   .hero-content p {
 	font-size: 24px;
 	color: #fa0000;
-	text-shadow: 2px 2px 5px  greenyellow;
+	text-shadow: 2px 2px 5px  orangered;
 	margin-top: 20px;
   }
   
+    /* Featured Products section */
+  
+	.featured-products {
+		background-image: url('IMG_1362.JPG');
+		background-size: cover;
+		height: 400px;
+		position: relative;
+	  }
+	  
+	  .featured-products-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	  }
+	  
+	  .featured-products-content h1 {
+		font-size: 60px;
+		color: greenyellow;
+		text-shadow: 2px 2px 5px purple;
+		margin: 0;
+	  }
+	  
+	  .featured-products-content p {
+		font-size: 24px;
+		color: greenyellow
+		text-shadow: 2px 2px 5px  purple;
+		margin-top: 20px;
+	  }
+
   /* Product grid */
   
   .product-grid {
@@ -124,7 +155,7 @@ body {
   .product a {
 	display: block;
 	text-align: center;
-	background-color: purple;
+	background-color: yellow;
 	color: #fff;
 	text-decoration: none;
 	padding: 10px;
