@@ -20,7 +20,7 @@ body {
   /* Header */
   
   header {
-	background-color: white;
+	background-color: none;
 	color: gray;
 	border-bottom: 1px solid #ddd;
 	padding: 20px;
@@ -113,7 +113,7 @@ body {
 	  
 	  .featured-products-content p {
 		font-size: 24px;
-		color: greenyellow
+		color: greenyellow;
 		text-shadow: 2px 2px 5px  purple;
 		margin-top: 20px;
 	  }
