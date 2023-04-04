@@ -1,9 +1,9 @@
 /* Global styles */
 
 body {
-	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
-	color: #333;
+	font-family: "Times New Roman", Times, serif;
+	background-color: steelblue;
+	color: white;
   }
   
   .container {
@@ -81,7 +81,7 @@ body {
   .hero-content p {
 	font-size: 24px;
 	color: #fff;
-	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	text-shadow: 2px 2px 5px  greenyellow;
 	margin-top: 20px;
   }
   
@@ -97,17 +97,17 @@ body {
   .product {
 	width: calc(33.33% - 20px);
 	margin-bottom: 40px;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 5px blue;
 	transition: all 0.3s ease;
   }
   
   .product:hover {
-	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	box-shadow: 0 5px 10px rgba(240, 6, 6, 0.805);
 	transform: translateY(-5px);
   }
   
   .product img {
-	width: 100%;
+	width: 50%;
   }
   
   .product h3 {
@@ -140,7 +140,7 @@ body {
   /* Footer */
   
   footer {
-	background-color: #333;
+	background-color: saddlebrown;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
