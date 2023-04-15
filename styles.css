@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Times New Roman", Times, serif;
-	background-image: url("black-paper-background.jpg");
+	background-image: none;
 	background-color: black;
 	color: darkgoldenrod;
   }
