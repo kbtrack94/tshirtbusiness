@@ -2,7 +2,8 @@
 
 body {
 	font-family: "Times New Roman", Times, serif;
-	background-color: lightgray;
+	background-image: url("IMG_1362.JPG");
+	background-color: whitesmoke;
 	color: darkgoldenrod;
   }
   
@@ -190,7 +191,7 @@ body {
   /* Footer */
   
   footer {
-	background-color: lightslategray;
+	background-color: goldenrod;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
