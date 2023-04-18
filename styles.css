@@ -746,20 +746,20 @@ button {
   display: inline-flex;
 }
 
-.pricing .section_text {
+.aboutme .section_text {
   height: 480px;
 }
 
-.section-pricing-img {
-  background-image: url("../../images/pricing-bg.jpg");
+.section-aboutme-img {
+  background-image: url("../../images/aboutme-bg.jpg");
   background-size: cover;
 }
 
-.pricing-tabs {
+.aboutme-tabs {
   padding: 100px 0 60px;
 }
 
-.pricing-tabs .toggle-container {
+.aboutme-tabs .toggle-container {
   margin-bottom: 40px;
   color: #000000;
   display: -webkit-box;
@@ -773,12 +773,12 @@ button {
           justify-content: center;
 }
 
-.pricing-tabs .toggle-container span {
+.aboutme-tabs .toggle-container span {
   font-family: "DM Sans Bold", sans-serif;
   font-size: 18px;
 }
 
-.pricing-tabs .toggle-container label {
+.aboutme-tabs .toggle-container label {
   background-color: #dfdfdf;
   display: inline-block;
   position: relative;
@@ -789,7 +789,7 @@ button {
   cursor: pointer;
 }
 
-.pricing-tabs .toggle-container label .ball {
+.aboutme-tabs .toggle-container label .ball {
   height: 25px;
   width: 25px;
   background-color: #000000;
@@ -803,17 +803,17 @@ button {
   transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
 
-.pricing-tabs .toggle-container input {
+.aboutme-tabs .toggle-container input {
   position: absolute;
   left: -9999px;
 }
 
-.pricing-tabs .toggle-container input:checked + label .ball {
+.aboutme-tabs .toggle-container input:checked + label .ball {
   -webkit-transform: translateX(29px);
           transform: translateX(29px);
 }
 
-.pricing-tabs .price-grid {
+.aboutme-tabs .price-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -823,30 +823,30 @@ button {
   padding: 35px 0 30px;
 }
 
-.pricing-tabs .price-box {
+.aboutme-tabs .price-box {
   background-color: #f5f5f5;
   padding: 50px 40px;
   text-align: center;
   height: 430px;
 }
 
-.pricing-tabs .price-box p {
+.aboutme-tabs .price-box p {
   color: rgba(0, 0, 0, 0.6);
   line-height: 25px;
   margin-bottom: 45px;
 }
 
-.pricing-tabs .price-box .yearly {
+.aboutme-tabs .price-box .yearly {
   display: none;
 }
 
-.pricing-tabs .price-box .btn {
+.aboutme-tabs .price-box .btn {
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.pricing-tabs .price-box.pro {
+.aboutme-tabs .price-box.pro {
   background-color: #000000;
   height: 500px;
   padding-top: 88px;
@@ -855,24 +855,24 @@ button {
   position: relative;
 }
 
-.pricing-tabs .price-box.pro p {
+.aboutme-tabs .price-box.pro p {
   color: rgba(223, 223, 223, 0.6);
 }
 
-.pricing-tabs .price-box.pro h2, .pricing-tabs .price-box.pro h4 {
+.aboutme-tabs .price-box.pro h2, .aboutme-tabs .price-box.pro h4 {
   color: #ffffff;
 }
 
-.pricing-tabs .price-box.pro button {
+.aboutme-tabs .price-box.pro button {
   background-color: #ffffff;
   color: #000000;
 }
 
-.pricing-tabs .price-box.pro button:hover {
+.aboutme-tabs .price-box.pro button:hover {
   background-color: #dfdfdf;
 }
 
-.pricing-tabs .price-box.pro button::before {
+.aboutme-tabs .price-box.pro button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -1006,37 +1006,37 @@ button {
   .section-features-img {
     background-image: url("../../images/features-bg-tablet.jpg");
   }
-  .section-pricing-img {
-    background-image: url("../../images/pricing-bg-tablet.jpg");
+  .section-aboutme-img {
+    background-image: url("../../images/aboutme-bg-tablet.jpg");
   }
   .beta {
     background-image: url("../../images/bg-beta-tablet.jpg");
   }
-  .pricing-tabs .price-grid {
+  .aboutme-tabs .price-grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     row-gap: 30px;
     max-width: 800px;
     margin: 0 auto;
   }
-  .pricing-tabs .price-box {
+  .aboutme-tabs .price-box {
     height: 410px;
     padding: 30px 40px;
     text-align: left;
   }
-  .pricing-tabs .price-box p {
+  .aboutme-tabs .price-box p {
     margin-bottom: 35px;
   }
-  .pricing-tabs .price-box p, .pricing-tabs .price-box .btn {
+  .aboutme-tabs .price-box p, .aboutme-tabs .price-box .btn {
     max-width: 300px;
   }
-  .pricing-tabs .price-box.pro {
+  .aboutme-tabs .price-box.pro {
     -webkit-transform: translateY(0);
             transform: translateY(0);
     height: 410px;
     padding: 30px 40px;
   }
-  .pricing-tabs h4 {
+  .aboutme-tabs h4 {
     text-align: left;
   }
 }
@@ -1250,21 +1250,21 @@ button {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/land-of-dreams-m.jpg");
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/land-of-dreams-m.jpg");
   }
-  .pricing-tabs h4 {
+  .aboutme-tabs h4 {
     text-align: center;
   }
-  .pricing-tabs .price-box {
+  .aboutme-tabs .price-box {
     height: 350px;
     padding: 40px;
     text-align: center;
   }
-  .pricing-tabs .price-box p {
+  .aboutme-tabs .price-box p {
     max-width: 100%;
   }
-  .pricing-tabs .price-box .btn {
+  .aboutme-tabs .price-box .btn {
     margin: auto;
   }
-  .pricing-tabs .price-box.pro {
+  .aboutme-tabs .price-box.pro {
     height: 350px;
   }
   .compare .table .table_head .col-2 {
@@ -1324,7 +1324,7 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .everyone .row, .create .row, .features .row, .pricing .row {
+  .everyone .row, .create .row, .features .row, .aboutme .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -1350,8 +1350,8 @@ button {
   .section-features-img {
     background-image: url("../../images/features-bg-mobile.jpg");
   }
-  .section-pricing-img {
-    background-image: url("../../images/pricing-bg-mobile.jpg");
+  .section-aboutme-img {
+    background-image: url("../../images/aboutme-bg-mobile.jpg");
   }
   .beta {
     background-image: url("../../images/bg-beta-mobile.jpg");
@@ -1361,7 +1361,7 @@ button {
         grid-template-columns: 1fr;
   }
   .features .section_text,
-  .pricing .section_text {
+  .aboutme .section_text {
     height: 300px;
   }
   .beta a {
