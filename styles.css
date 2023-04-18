@@ -1339,22 +1339,22 @@ button {
     height: 300px;
   }
   .section-create-img {
-    background-image: url("../../images/create-and-share-mobile.jpg");
+    background-image: url("images/drag.svg");
   }
   .section-stories-img {
-    background-image: url("../../images/beautiful-stories-mobile.jpg");
+    background-image: url("images/drag.svg");
   }
   .section-everyone-img {
-    background-image: url("../../images/designed-for-everyone-mobile.jpg");
+    background-image: url("images/drag.svg");
   }
   .section-features-img {
-    background-image: url("../../images/features-bg-mobile.jpg");
+    background-image: url("images/drag.svg");
   }
   .section-aboutme-img {
-    background-image: url("../../images/aboutme-bg-mobile.jpg");
+    background-image: url("images/drag.svg");
   }
   .beta {
-    background-image: url("../../images/bg-beta-mobile.jpg");
+    background-image: url("images/drag.svg");
   }
   .grid {
     -ms-grid-columns: 1fr;
