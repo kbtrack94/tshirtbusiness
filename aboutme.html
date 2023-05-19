@@ -16,7 +16,7 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 800px; /* Increase the max-width to make the container wider */
       margin: 0 auto;
       padding: 20px;
       background-color: #fff;
@@ -28,10 +28,11 @@
     h1 {
       color: blue;
       margin-bottom: 20px;
+      font-size: 28px; /* Increase the font size for the heading */
     }
 
     .password {
-      font-size: 18px;
+      font-size: 24px; /* Increase the font size for the password display */
       margin-bottom: 20px;
     }
 
@@ -76,11 +77,11 @@
     <input type="number" id="length" min="4" max="20" value="8">
     <label for="uppercase">Include Uppercase:</label>
     <input type="checkbox" id="uppercase">
-    <label for="lowercase">Include Lowercase:</label>
+    <label for="lowercase">Include Lowercase?</label>
     <input type="checkbox" id="lowercase">
-    <label for="numbers">Include Numbers:</label>
+    <label for="numbers">Include Numbers?</label>
     <input type="checkbox" id="numbers" checked>
-    <label for="special">Include Special Characters:</label>
+    <label for="special">Special Characters?</label>
     <input type="checkbox" id="special">
     <button onclick="generatePassword()">Generate Password</button>
   </div>
@@ -103,4 +104,16 @@
       // This is just a placeholder example
       var characters = "";
       if (includeUppercase) characters += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      if (
+      if (includeLowercase) characters += "abcdefghijklmnopqrstuvwxyz";
+      if (includeNumbers) characters += "0123456789";
+      if (includeSpecial) characters += "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+      
+      var password = "";
+      for (var i = 0; i < length; i++) {
+        password += characters.charAt(Math.floor(Math.random() * characters.length));
+      }
+      return password;
+    }
+  </script>
+</body>
+</html>
