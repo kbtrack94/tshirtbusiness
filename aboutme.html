@@ -8,31 +8,25 @@
       font-family: Times New Roman, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: lightgray;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+      background-color: gray;
     }
 
     .container {
-      max-width: 400px; /* Increase the max-width to make the container wider */
+      max-width: 600px;
       margin: 0 auto;
       padding: 20px;
-      background-color: red;
+      background-color: purple;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       border-radius: 5px;
       text-align: center;
     }
 
     h1 {
-      color: blue;
-      margin-bottom: 20px;
-      font-size: 28px; /* Increase the font size for the heading */
+      color: orange;
     }
 
     .password {
-      font-size: 24px; /* Increase the font size for the password display */
+      font-size: 18px;
       margin-bottom: 20px;
     }
 
@@ -40,24 +34,18 @@
       display: block;
       margin-bottom: 10px;
       font-weight: bold;
-      text-align: left;
     }
 
     input[type="number"] {
-      width: 100%;
+      width: 100px;
       padding: 5px;
       font-size: 14px;
     }
 
-    input[type="checkbox"] {
-      margin-left: 5px;
-    }
-
     button {
-      margin-top: 20px;
       padding: 10px 20px;
       font-size: 16px;
-      background-color: gray;
+      background-color: green;
       color: white;
       border: none;
       border-radius: 4px;
@@ -65,7 +53,7 @@
     }
 
     button:hover {
-      background-color: red;
+      background-color: lightblue;
     }
   </style>
 </head>
@@ -75,14 +63,6 @@
     <div class="password" id="password"></div>
     <label for="length">Password Length:</label>
     <input type="number" id="length" min="4" max="20" value="8">
-    <label for="uppercase">Include Uppercase:</label>
-    <input type="checkbox" id="uppercase">
-    <label for="lowercase">Include Lowercase?</label>
-    <input type="checkbox" id="lowercase">
-    <label for="numbers">Include Numbers?</label>
-    <input type="checkbox" id="numbers" checked>
-    <label for="special">Special Characters?</label>
-    <input type="checkbox" id="special">
     <button onclick="generatePassword()">Generate Password</button>
   </div>
 
@@ -90,24 +70,14 @@
     // JavaScript code for generating the password
     function generatePassword() {
       var length = document.getElementById("length").value;
-      var includeUppercase = document.getElementById("uppercase").checked;
-      var includeLowercase = document.getElementById("lowercase").checked;
-      var includeNumbers = document.getElementById("numbers").checked;
-      var includeSpecial = document.getElementById("special").checked;
-      
-      var password = generateRandomPassword(length, includeUppercase, includeLowercase, includeNumbers, includeSpecial);
+      var password = generateRandomPassword(length);
       document.getElementById("password").innerText = password;
     }
 
-    function generateRandomPassword(length, includeUppercase, includeLowercase, includeNumbers, includeSpecial) {
+    function generateRandomPassword(length) {
       // Your password generation logic here
       // This is just a placeholder example
-      var characters = "";
-      if (includeUppercase) characters += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      if (includeLowercase) characters += "abcdefghijklmnopqrstuvwxyz";
-      if (includeNumbers) characters += "0123456789";
-      if (includeSpecial) characters += "!@#$%^&*()_+~`|}{[]:;?><,./-=";
-      
+      var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
       var password = "";
       for (var i = 0; i < length; i++) {
         password += characters.charAt(Math.floor(Math.random() * characters.length));
